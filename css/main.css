@@ -2003,7 +2003,7 @@ a:active {
 .wrapper.ui.grid .results {
   padding: 0 20px; }
   .wrapper.ui.grid .results .car_result {
-    margin: 20px 15px 15px 15px;
+    margin: 20px 15px 15px 0px;
     background-color: #fff;
     box-shadow: 2px 2px 1px #ddd;
     padding: 10px;
