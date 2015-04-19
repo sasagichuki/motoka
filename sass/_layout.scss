@@ -47,7 +47,15 @@
     padding: 0 20px;
 
     .car_result{
-      padding: 10px 0 0 15px;
+      margin: 20px 15px 15px 15px;
+      background-color: #fff;
+      box-shadow: 2px 2px 1px #ddd;
+      padding: 10px;
+      border-radius: 10px;
+
+      img{
+        min-width: 100%;
+      } 
 
       .make{
         font-size: 1.5em;
