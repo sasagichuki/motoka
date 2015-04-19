@@ -23,6 +23,27 @@
 
 @media only screen and (max-width: 768px){
 
+	.wrapper.ui.grid{
+		.main_content{
+	    .logo_pad > img{
+	      max-width: 120%;
+	    }
+	    .tagline{
+	      text-align: center;
+	      font-size: 2.7em;
+	      margin-top: 10px;
+	    }
+	    .strapline{
+	      text-align: center;
+	      margin-bottom: 20px;
+	      color: #37c3e2;
+	    }
+	  }
+
+	}
+
+	
+
 }//max width 768
 
 

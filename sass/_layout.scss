@@ -23,12 +23,12 @@
   }
 
   .main_content{
-    .logo_pad{
+    .logo_pad > img{
       max-width: 80%;
     }
     .tagline{
       text-align: center;
-      font-size: 3.8rem;
+      font-size: 3.8em;
       margin-top: 10px;
     }
     .strapline{

@@ -19592,11 +19592,11 @@ a:active {
     color: grey; }
     .wrapper.ui.grid .top_menu .item:hover {
       color: #37c3e2; }
-.wrapper.ui.grid .main_content .logo_pad {
+.wrapper.ui.grid .main_content .logo_pad > img {
   max-width: 80%; }
 .wrapper.ui.grid .main_content .tagline {
   text-align: center;
-  font-size: 3.8rem;
+  font-size: 3.8em;
   margin-top: 10px; }
 .wrapper.ui.grid .main_content .strapline {
   text-align: center;
@@ -19617,6 +19617,17 @@ a:active {
 
 /* Import Media Queries */
 /* ==================================================== */
+@media only screen and (max-width: 768px) {
+  .wrapper.ui.grid .main_content .logo_pad > img {
+    max-width: 120%; }
+  .wrapper.ui.grid .main_content .tagline {
+    text-align: center;
+    font-size: 2.7em;
+    margin-top: 10px; }
+  .wrapper.ui.grid .main_content .strapline {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #37c3e2; } }
 /* Print Styles */
 /* ==================================================== */
 @media print {
