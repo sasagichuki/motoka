@@ -44,10 +44,34 @@
 
   .results{
     padding: 0 20px;
-  }
-}
 
-footer{
+    .car_result{
+      padding: 10px 0 0 15px;
+
+      .make{
+        font-size: 1.5em;
+      }
+
+      .price_detail{
+        padding: 5px 0px;
+        .price{
+            font-size: 1.3em;
+            line-height: 2em;
+        }
+      }
+
+      .view_source{
+        padding: 5px 0px;
+      }
+
+      .description{
+          height: 100px;
+          overflow: hidden;
+      }
+    }
+  }
+
+  footer{
 
     .footer_content{
       text-align: center;
@@ -57,11 +81,12 @@ footer{
     bottom: 0px;
     margin: 0 auto;
     text-align: center;
-    left: 20%;
-    right: 20%;
+    // left: 20%;
+    // right: 20%;
 
     a{
       color: #053149;
       &:hover{color: #37c3e2;}
     }
   }
+}

@@ -2003,19 +2003,30 @@ a:active {
     color: #37c3e2; }
   .wrapper.ui.grid .results {
     padding: 0 20px; }
-
-footer {
-  bottom: 0px;
-  margin: 0 auto;
-  text-align: center;
-  left: 20%;
-  right: 20%; }
-  footer .footer_content {
+    .wrapper.ui.grid .results .car_result {
+      padding: 10px 0 0 15px; }
+      .wrapper.ui.grid .results .car_result .make {
+        font-size: 1.5em; }
+      .wrapper.ui.grid .results .car_result .price_detail {
+        padding: 5px 0px; }
+        .wrapper.ui.grid .results .car_result .price_detail .price {
+          font-size: 1.3em;
+          line-height: 2em; }
+      .wrapper.ui.grid .results .car_result .view_source {
+        padding: 5px 0px; }
+      .wrapper.ui.grid .results .car_result .description {
+        height: 100px;
+        overflow: hidden; }
+  .wrapper.ui.grid footer {
+    bottom: 0px;
+    margin: 0 auto;
     text-align: center; }
-  footer a {
-    color: #053149; }
-    footer a:hover {
-      color: #37c3e2; }
+    .wrapper.ui.grid footer .footer_content {
+      text-align: center; }
+    .wrapper.ui.grid footer a {
+      color: #053149; }
+      .wrapper.ui.grid footer a:hover {
+        color: #37c3e2; }
 
 /* Import Media Queries */
 /* ==================================================== */
