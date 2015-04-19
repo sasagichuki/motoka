@@ -1981,52 +1981,51 @@ a:active {
   height: 100px;
   width: 100%; }
 
-.wrapper.ui.grid {
-  height: 95%; }
-  .wrapper.ui.grid .top_menu {
-    text-align: center;
-    height: 25px;
-    padding-top: 10px; }
-    .wrapper.ui.grid .top_menu .item {
-      color: grey; }
-      .wrapper.ui.grid .top_menu .item:hover {
-        color: #37c3e2; }
-  .wrapper.ui.grid .main_content .logo_pad > img {
-    max-width: 80%; }
-  .wrapper.ui.grid .main_content .tagline {
-    text-align: center;
-    font-size: 3.8em;
-    margin-top: 10px; }
-  .wrapper.ui.grid .main_content .strapline {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #37c3e2; }
-  .wrapper.ui.grid .results {
-    padding: 0 20px; }
-    .wrapper.ui.grid .results .car_result {
-      padding: 10px 0 0 15px; }
-      .wrapper.ui.grid .results .car_result .make {
-        font-size: 1.5em; }
-      .wrapper.ui.grid .results .car_result .price_detail {
-        padding: 5px 0px; }
-        .wrapper.ui.grid .results .car_result .price_detail .price {
-          font-size: 1.3em;
-          line-height: 2em; }
-      .wrapper.ui.grid .results .car_result .view_source {
-        padding: 5px 0px; }
-      .wrapper.ui.grid .results .car_result .description {
-        height: 100px;
-        overflow: hidden; }
-  .wrapper.ui.grid footer {
-    bottom: 0px;
-    margin: 0 auto;
+.wrapper.ui.grid .top_menu {
+  text-align: center;
+  height: 25px;
+  padding-top: 10px; }
+  .wrapper.ui.grid .top_menu .item {
+    color: grey; }
+    .wrapper.ui.grid .top_menu .item:hover {
+      color: #37c3e2; }
+.wrapper.ui.grid .main_content .logo_pad > img {
+  max-width: 80%;
+  text-align: centre; }
+.wrapper.ui.grid .main_content .tagline {
+  text-align: center;
+  font-size: 3.8em;
+  margin-top: 10px; }
+.wrapper.ui.grid .main_content .strapline {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #37c3e2; }
+.wrapper.ui.grid .results {
+  padding: 0 20px; }
+  .wrapper.ui.grid .results .car_result {
+    padding: 10px 0 0 15px; }
+    .wrapper.ui.grid .results .car_result .make {
+      font-size: 1.5em; }
+    .wrapper.ui.grid .results .car_result .price_detail {
+      padding: 5px 0px; }
+      .wrapper.ui.grid .results .car_result .price_detail .price {
+        font-size: 1.3em;
+        line-height: 2em; }
+    .wrapper.ui.grid .results .car_result .view_source {
+      padding: 5px 0px; }
+    .wrapper.ui.grid .results .car_result .description {
+      height: 100px;
+      overflow: hidden; }
+.wrapper.ui.grid footer {
+  bottom: 0px;
+  margin: 0 auto;
+  text-align: center; }
+  .wrapper.ui.grid footer .footer_content {
     text-align: center; }
-    .wrapper.ui.grid footer .footer_content {
-      text-align: center; }
-    .wrapper.ui.grid footer a {
-      color: #053149; }
-      .wrapper.ui.grid footer a:hover {
-        color: #37c3e2; }
+  .wrapper.ui.grid footer a {
+    color: #053149; }
+    .wrapper.ui.grid footer a:hover {
+      color: #37c3e2; }
 
 /* Import Media Queries */
 /* ==================================================== */
