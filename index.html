@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sass Starter Template</title>
+        <title>Motoka</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
@@ -15,22 +15,62 @@
         <!--[if IE 9]>     <html class="ie9"> <![endif]-->
         <!--[if !IE]><!--> <html>             <!--<![endif]-->
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="wrapper">
-            <div class="headerthing"> Box 1 </div>
-            <div class="headerthing"> Box 2 </div>
-            <div class="headerthing"> Box 3 </div>
-            <div class="clearfix"></div>
+        <div class="wrapper ui grid">
+            <!-- Header Row -->
+            <header class="row">
+                <!-- Menu -->
+                <div class="top_menu ui text menu centered twelve wide column">
+                    <a class="item">How it works</a>
+                    <a class="item">Happy Customers</a>
+                    <!-- <a class="item"> Most Popular</a> -->
+                </div>
+                <div class="ui divider"></div>
+            </header>
+            <!-- Main Content row -->
+            <!-- logo -->
+            <div class="main_content row">
+                <div class="logo_pad four wide column centered">
+                    <img src="imgs/logo_big.png" alt="">
+                </div>
+                <!-- Headline / Tagline -->
+                <div class="ten wide column centered">
+                    <h1 class="tagline">Over 60,000 used cars</h1>
+                    <h3 class="strapline">Find yours, Pay easy, and get it to your doorstep</h3>
+                </div>
+                <!-- Search Bar -->
+                <div class="ten wide column centered">
+                    <div class="ui massive fluid action input search_bar">
+                        <input type="text" placeholder="Try Nissan March">
+                        <button class="ui teal right labeled button">Search</button>
+                    </div>
+                </div>
+            </div>
+            <!-- footer row -->
+            <footer class="row">
+                <div class="ui divider"></div>
+                <div class="sixteen wide column">
+                    <a href="#">Terms and conditions</a>
+                    <a >    |    </a>
+                    <a href="#">About Motoka</a>
+                </div>
+            </footer>
         </div>
+        <!-- Close Wrapper -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+        //     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        //     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        //     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        //     e.src='//www.google-analytics.com/analytics.js';
+        //     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        //     ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
     </body>
 </html>
